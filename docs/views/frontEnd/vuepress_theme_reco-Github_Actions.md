@@ -1,22 +1,50 @@
-<p align="center">
-  <a href="https://github.com/Tsanfer/vuepress_theme_reco-Github_Actions/actions"><img src="https://github.com/Tsanfer/vuepress_theme_reco-Github_Actions/workflows/Github%20Actions/badge.svg" alt="Build Status"></a>
-  <a href="https://github.com/prettier/prettier"><img src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square" alt="Coverage Status"></a>
-  <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg" alt="Coverage Status"></a>
-</p>
+---
+title: vuepress-theme-reco + Github Actions 构建静态博客，部署到第三方服务器
+date: 2020-03-21
+sidebar: "auto"
+categories:
+  - 前端
+tags:
+  - VuePress
+  - Github
+  - 博客
+  - 持续集成
+---
+
+::: tip
+
+先下载主题模板，再根据自己的需要进行相应的修改，再根据自己的服务器配置 Github Actions 文件，最后上传到 Github，触发 Github Actions 自动构建部署到服务器
+
+:::
+
+<!-- more -->
 
 > [最新博客链接](https://tsanfer.xyz/views/frontEnd/vuepress_theme_reco-Github_Actions.html)
 
 > [Github 链接](https://github.com/Tsanfer/vuepress_theme_reco-Github_Actions)
 
+<p align="center">
+  <a href="https://github.com/Tsanfer/vuepress_theme_reco-Github_Actions/actions"><img src="https://github.com/Tsanfer/vuepress_theme_reco-Github_Actions/workflows/Github%20Actions/badge.svg" alt="Build Status"></a>
+  <a href="https://creativecommons.org/licenses/by-sa/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY--SA%204.0-lightgrey.svg" alt="Coverage Status"></a>
+</p>
+
+::: tip 提示
+
 查看此文档前应先了解，[vuepress 基本操作](https://tsanfer.xyz/views/frontEnd/VuePress%20+%20GithubPages%20+%20TravisCI%20.html#%E6%9C%80%E7%BB%88%E6%95%88%E6%9E%9C)
+
+:::
 
 参考官方文档进行配置：
 
-> [vuepress-theme-reco](https://vuepress-theme-reco.recoluan.com/)
+::: tip 提示
 
-> [VuePress](https://vuepress.vuejs.org/zh/)
+[vuepress-theme-reco](https://vuepress-theme-reco.recoluan.com/)
 
-> [SamKirkland / FTP-Deploy-Action](https://github.com/marketplace/actions/ftp-deploy)
+[VuePress](https://vuepress.vuejs.org/zh/)
+
+[SamKirkland / FTP-Deploy-Action](https://github.com/marketplace/actions/ftp-deploy)
+
+:::
 
 ## 最终效果
 
@@ -129,11 +157,15 @@ sudo yarn
 
 然后根据需要更改一些内容和设置，参考官方的文档，可自行取舍相应内容
 
-> [vuepress-theme-reco](https://vuepress-theme-reco.recoluan.com/)
->
-> [VuePress](https://vuepress.vuejs.org/zh/)
+::: tip 提示
 
-```javascript
+[vuepress-theme-reco](https://vuepress-theme-reco.recoluan.com/)
+
+[VuePress](https://vuepress.vuejs.org/zh/)
+
+:::
+
+```javascript {83,84}
 // docs/.vuepress/config.js
 
 module.exports = {
@@ -307,9 +339,13 @@ module.exports = {
 
 在 Github 网页上添加 Github Actions 配置文件，参考官方的文档，可自行取舍相应内容，其中需要保密的部分需要添加 Github Secrets 环境变量
 
-> [SamKirkland / FTP-Deploy-Action](https://github.com/marketplace/actions/ftp-deploy)
+::: tip 提示
 
-```yml
+[SamKirkland / FTP-Deploy-Action](https://github.com/marketplace/actions/ftp-deploy)
+
+:::
+
+```yml {22,23,32,33}
 # .github/workflows/nodejs.yml
 
 on: push # 触发此文件运行的条件
@@ -366,4 +402,4 @@ jobs:
 
 最后再把代码上传到 Github 便可自动触发构建，部署到第三方服务器
 
-> 本文由[水中鱼、何寻觅](http://ruo.aizn8.com) 发布！
+> 本文由[水中鱼、何寻觅](https://tsanfer.xyz) 发布！

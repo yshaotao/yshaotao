@@ -1,5 +1,3 @@
-node_modules
-docs/.vuepress/dist
-*.mp3
-*.DS_Store
-*.lock
+node_modules/
+docs/.vuepress/dist/
+*.log

@@ -1,18 +1,11 @@
 ---
 home: true
-# heroImage: /img/me.jpg
-actionText: 进入我的博客
-actionLink: /timeLine/
-subDescription: 一名爱技术、爱生活、爱思考的码农
+bgImage: "/background.jpg"
+bgImageStyle: { height: "350px" }
 ---
 
-
-<!-- # 所有文章
-<div style="display: flex; flex-direction: column">
-    <div v-for="page of $site.pages.filter(item => item.path !== '/')" :key="page.key" style="padding: 20px 0; max-width: 33%;">
-        <router-link :to="page.path">
-            {{page.title}}
-            <div style="color: #c2c5cd; font-size: .5rem;">{{(page.frontmatter.tags || ['无标签']).join(',  ')}}</div>
-        </router-link>
-    </div>
-</div> -->
+<!--
+<div style="width:300px;margin:0 auto; padding:20px 0;">
+<a target="_blank" href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51110202000301" style="display:inline-block;text-decoration:none;height:20px;line-height:20px;"><img src="" style="float:left;"/><p style="float:left;height:20px;line-height:20px;margin: 0px 0px 0px 5px; color:#939393;">川公网安备 51110202000301号</p></a>
+</div>
+-->
