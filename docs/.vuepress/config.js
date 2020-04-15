@@ -85,9 +85,9 @@ module.exports = {
     //     // }
     // ],v
     sidebar: "auto", //在所有页面中启用自动生成侧栏
-    record: "蜀ICP备20005033号-1",
+    // record: "蜀ICP备20005033号-1",
     // recordLink: "https://icp.chinaz.com/tsanfer.xyz", // 备案信息
-    cyberSecurityRecord: "川公网安备 51110202000301号",
+    // cyberSecurityRecord: "川公网安备 51110202000301号",
     // cyberSecurityLink: "http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=51110202000301",
     startYear: "2020", // 项目开始时间，只填写年份
     lastUpdated: "最后更新时间", // string | boolean

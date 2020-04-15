@@ -6,7 +6,6 @@ categories:
   - 更多
 tags:
   - 扩展
-note: 常用功能组件
 ---
 
 ::: tip
@@ -304,12 +303,6 @@ map.setFitView(districtExplorer.getAllFeaturePolygons());
 | [tabindex](http://www.w3school.com.cn/tags/att_standard_tabindex.asp) | 规定元素的 tab 键次序。                                |
 | [title](http://www.w3school.com.cn/tags/att_standard_title.asp) | 规定有关元素的额外信息。                               |
 | [translate](http://www.w3school.com.cn/tags/att_global_translate.asp) | 规定是否应该翻译元素内容。                             |
-
-#### 文件预览
-
-将这三个文件复制过来
-
-![1565072820026](../../%E6%96%87%E6%A1%A3%E6%96%87%E4%BB%B6/%E4%B8%AA%E4%BA%BA%E7%AC%94%E8%AE%B0/assets/1565072820026.png)
 
 ### vue.config.js   ---cli3.3↗
 
